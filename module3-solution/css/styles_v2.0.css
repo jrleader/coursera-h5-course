@@ -1,0 +1,123 @@
+* {
+	box-sizing: border-box;
+}
+
+body { 
+	padding-top: 70px; /* prevents the static navbar from 
+						 overlaying other contents*/
+ 	font-family: Helvetica, Sans-serif, Times; 
+} 
+
+nav div{
+	/*background-color: aquamarine;*/
+}
+/*div .navbar-brand {
+	background-color: aquamarine;
+	color: blue;
+}*/
+.row {
+	width: 100%;
+}
+
+div#container {
+
+}
+
+p {
+	padding: 20px;
+	/*padding-bottom: 10px;*/
+	font-size:1.8em;
+	text-align:justify;
+	/*text-wrap: normal;*/
+	/*word-wrap:normal;*/
+}
+/*h2 {
+	position: absolute;
+	top:0;
+	left:0;
+	float: left;
+	color: red;
+}*/
+/*a:hover {*/
+	
+/*}*/
+
+h1 {
+	margin-bottom: 40px;
+	/*text-transform: */
+	font-family: monospace;
+	font-weight: bold;
+}
+
+a.btot {
+	position: absolute;
+	bottom:0px;
+	right:0px;
+	font-size:1.5em;
+	text-decoration: none;
+	/*word-wrap:normal;*/
+	margin:10px;
+}
+
+a.btot:hover {
+	/*text-decoration: none;*/
+	color: indigo;
+}
+
+a.btot:active {
+	/*text-decoration: none;*/
+	color: #fff;
+}
+
+/*a:visited {
+	color: #fff;
+}*/
+/*#beef, #chicken, #sushi {
+	padding: 10px;
+	position: relative;
+	/*float: left;
+}*/
+
+div#chicken, div#beef, div#sushi {
+	/*width:%;*/
+	position: relative;
+	height: 700px;
+	/*border: 10px solid green;*/
+    border-radius: 10px;
+	margin-left: 25px;
+    margin-bottom: 20px;
+	background-color: #f33;
+	overflow: hidden;
+}
+
+div > h3 {
+	/*float: left;  needs to be done in the Bootstrap way*/
+	/*position: absolute;*/
+	/*padding-top: 30px;*/
+	padding-top: 25px;
+}
+
+/*#sushi > h3 {
+	padding-top: 30px;
+}*/
+/*a.navbar-brand { can't override the default styling*/
+	/*color:#337ab7;*/
+/*}*/
+
+/*.navbar-brand:hover {  can't override the default styling 
+	color: blue;
+}*/
+
+#brand:hover { /* overrides the default style defined in
+				bootstrap.min.css*/
+	color: blue;
+}
+
+a#brand {
+	color: aquamarine;
+}
+
+button {
+	position:relative;
+	float: right;
+}
